@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+
+<body>
+	<form id="in-form">
+		<table>
+			<tr>
+				<td><label for="target">Target</label></td>
+				<td> : <input type="text" name="target" id="target"></td>
+			</tr>
+			<tr>
+				<td><label for="populationsize">Population Size</label></td>
+				<td> : <input type="text" name="population_size" id="populationsize"></td>
+			</tr>
+			<tr>
+				<td><label for="mutationrate">Mutation Rate</label></td>
+				<td> : <input type="text" name="mutation_rate" id="mutationrate"></td>
+			</tr>
+			<tr>
+				<td><button type="submit">Process</button></td>
+			</tr>
+		</table>
+		<p id="generation"></p>
+		<table id="out-table" border="2" style="border-collapse: collapse;">
+			<thead>
+				<tr>
+					<th style="min-width: 10px;">No</th>
+					<th style="min-width: 200px;">Gen</th>
+					<th style="min-width: 100px;">Fitness</th>
+				</tr>
+			</thead>
+			<tbody></tbody>
+		</table>
+	</form>
+	<script src="listener.js"></script>
+</body>
+
+</html>
