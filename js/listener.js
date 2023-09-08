@@ -2,6 +2,8 @@ var form = document.querySelector('#in-form');
 form.addEventListener('submit', function (e) {
     e.preventDefault();
 
+    document.querySelector('.heading-result').classList.add('show');
+
     var input = {};
     for (var i = 0; i < form.elements.length - 1; i++) {
         input[form.elements.item(i).name] = form.elements.item(i).value;
@@ -108,3 +110,13 @@ form.addEventListener('submit', function (e) {
         document.querySelector('#out-table tbody').replaceWith(tbody);
     }, 1);
 });
+
+// if ('serviceWorker' in navigator) {
+//     addEventListener('load', function () {
+//         navigator.serviceWorker.register('sw.js').then(function (r) {
+//             console.log('ServiceWorker registration successfull with scope: ', r.scope);
+//         }, function (e) {
+//             console.log('ServiceWorker registration failed: ', e);
+//         });
+//     });
+// }
