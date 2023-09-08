@@ -42,7 +42,7 @@ cd algoritma-genetika
 │   ├── fontawesome.min.js
 │   ├── jquery.min.js
 │   ├── listener.js
-│   ├── popper.min.js
+│   └── popper.min.js
 ├── index.html
 └── sw.js
 ```
