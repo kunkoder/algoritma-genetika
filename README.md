@@ -1,4 +1,4 @@
-# :bulb: Sistem Pendukung Keputusan
+# :bulb: Algoritma Genetika
 
 Repository ini berisi projek aplikasi berbasis web yang menerapkan algoritma genetika untuk pencarian karakter.
 
